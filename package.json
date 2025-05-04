@@ -6,16 +6,16 @@
   "main": "server.js",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
-    "body-parser": "^1.15.1",
+    "body-parser": "1.20.3",
     "consolidate": "^0.14.1",
     "csurf": "^1.8.3",
     "dont-sniff-mimetype": "^1.0.0",
-    "express": "^4.13.4",
-    "express-session": "^1.13.0",
+    "express": "4.21.2",
+    "express-session": "1.18.1",
     "forever": "^2.0.0",
     "helmet": "^2.0.0",
-    "marked": "0.3.9",
-    "mongodb": "^2.1.18",
+    "marked": "4.0.10",
+    "mongodb": "3.1.13",
     "needle": "2.2.4",
     "node-esapi": "0.0.1",
     "serve-favicon": "^2.3.0",
@@ -62,6 +62,12 @@
   "repository": "https://github.com/OWASP/NodejsGoat",
   "license": "Apache 2.0",
   "overrides": {
-    "minimist@<=1.2.6": "1.2.6"
+    "minimist@<=1.2.6": "1.2.6",
+    "cookie@<=0.7.0": "0.7.0",
+    "bson@<=1.1.4": "1.1.4",
+    "qs@<=6.5.3": "6.5.3",
+    "helmet-csp@<=2.9.1": "2.9.1",
+    "minimatch@<=3.0.5": "3.0.5",
+    "ms@<=2.0.0": "2.0.0"
   }
 }
